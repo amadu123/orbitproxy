@@ -1,0 +1,102 @@
+body {
+    font-size: "250px";
+    text-align: center;
+    background-color:#222;
+  font-family: 'Josefin Sans', sans-serif;
+ background-color: black;
+}
+
+p {
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #cc5500, #ccbb00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
+  cursor: pointer;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+}
+
+
+.container {
+   margin-top: 10%;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: "50px";
+   color: #FFF;
+   
+}
+
+.container p {
+font-size: 50px;
+margin-bottom: 2px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#iurl {
+background-color: inherit;
+width: 100%;
+height: 28px;
+border: solid 3px #FFF;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 16px;
+color: #eee;
+padding: 8px 0px;
+margin-bottom: 5px;
+box-sizing: content-box;
+text-align: center;
+border-radius: 2px;
+}
+
+::placeholder {
+  color: grey;
+}
+
+#btn {
+background-color: inherit;
+width: 100%;
+height: 28px;
+border: solid 3px #0066ff;
+font-family: 'Josefin Sans', sans-serif;
+color: #0066ff;
+font-size: 16px;
+
+padding: 8px 0px;
+box-sizing: content-box;
+transition: 0.3s;
+border-radius: 2px;
+}
+
+#btn:hover {
+background: #2600ff;
+
+}
+
+.container a {
+height: 20px;
+background: inherit;
+color: #ddd;
+border: 0;
+cursor: pointer;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 17px;
+transition: 0.3s;
+}
+.container a:hover {
+font-size: 23;
+}
+.url {
+width: 300px;
+margin: auto;
+font-family: 'Josefin Sans', sans-serif;
+}
