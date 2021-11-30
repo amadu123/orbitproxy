@@ -22,4 +22,4 @@ If you have people who use the proxy to not go on certain sites, add the URL in 
 
 
 # License
-MIT license. Inspired by Titanium Network. Check them out: https://discord.gg/unblock
+MIT license. Inspired by Titanium Network Alloy Proxy, remixed UI and code. Check them out: https://discord.gg/unblock
